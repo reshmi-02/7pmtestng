@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  	<parameter name="user" value="Oranium1234"></parameter>
+  	<parameter name="passwrd" value="r1154516"></parameter>
+  
+    <classes>
+      <class name="annotations.ParameterDemo"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
